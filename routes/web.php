@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('hola/index','SitioController@index');
+Route::get('hola/saludo/{nombre}','SitioController@saludar');
+
+
 Route::get('/', function () {
     return view('welcome');
 });
