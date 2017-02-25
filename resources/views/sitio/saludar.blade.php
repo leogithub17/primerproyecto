@@ -1,0 +1,1 @@
+Bienvenido {!! $elNombre !!} al sitio
